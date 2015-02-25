@@ -1,4 +1,8 @@
-body {
-  h1: lightblue;
-  
-}
+<head>
+<style>
+
+  h1{
+    color: lightblue;
+  }
+</style>
+<body>
