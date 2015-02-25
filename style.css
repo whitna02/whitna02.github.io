@@ -1,5 +1,8 @@
 <head>
 <style>
+  body {
+      background-color: black;
+  }
   table, td, th {
       border: 2px solid blue;
   }
@@ -9,7 +12,7 @@
       color: white;
   }
   td {
-      backgroud-color: grey;
+      background-color: gray;
       color: blue;
   }
 </style>
