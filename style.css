@@ -3,9 +3,6 @@
   body {
       background-color: black;
   }
-  caption {
-    caption: blue;
-  }
   table, td, th {
       border: 2px solid blue;
       text-align: center;
