@@ -1,12 +1,16 @@
 <head>
 <style>
   table, td, th {
-      border: 1px solid green;
+      border: 2px solid blue;
   }
   
   th {
-      background-color: green;
+      background-color: blue;
       color: white;
+  }
+  td {
+      backgroud-color:grey;
+      color:blue;
   }
 </style>
 </head>
