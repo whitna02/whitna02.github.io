@@ -29,9 +29,11 @@
   }
   .food {
       background-color: green;
+      color: white;
   }
   .practice {
       background-color: blue;
+      color: white;
   }
 </style>
 </head>
