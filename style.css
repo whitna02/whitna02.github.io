@@ -21,5 +21,17 @@
       background-color: black;
       color: white;
   }
+  .class {
+      background-color: white;
+  }
+  .day {
+      background-color: purple;
+  }
+  .food {
+      background-color: green;
+  }
+  .practice {
+      background-color: blue;
+  }
 </style>
 </head>
