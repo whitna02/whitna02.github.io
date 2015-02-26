@@ -2,15 +2,16 @@
 <style>
   table, td, th {
       border: 2px #FF66FF;
-      text-align: center;
   }
   th {
       background-color: blue;
       color: white;
+      text-align: center;
   }
   td {
       background-color: gray;
       color: blue;
+      text-align: center;
   }
   .time {
       background-color: black;
