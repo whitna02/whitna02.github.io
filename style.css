@@ -1,5 +1,9 @@
 <head>
 <style>
+  
+  body {
+      background-color: black;
+  }
   table, td, th {
       border: 2px dashed orange;
       text-align: center;
