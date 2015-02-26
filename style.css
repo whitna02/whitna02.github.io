@@ -1,15 +1,10 @@
 <head>
 <style>
-  h1 {
-      color: #83FF59;
-      font-family: arial;
-  }
+
   table, td, th {
       border: 2px dashed orange;
       text-align: center;
-  
   }
-  
   th {
       background-color: blue;
       color: white;
