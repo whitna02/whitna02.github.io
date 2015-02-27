@@ -35,6 +35,7 @@
   }
   header {
     position: fixed;
+    background-color: pink;
   }
   
 </style>
