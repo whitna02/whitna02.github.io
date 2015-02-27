@@ -2,7 +2,7 @@
 <style>
   table, td, th {
       border: 2px #FF66FF;
-      position: float;
+      margin-top:50px;
   }
   th {
       background-color: blue;
