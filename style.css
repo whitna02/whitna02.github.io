@@ -33,7 +33,7 @@
       background-color: blue;
       color: white;
   }
-  header {
+  .caption {
     position: fixed;
     background-color: pink;
     width: 100%;
