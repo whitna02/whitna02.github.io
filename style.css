@@ -34,7 +34,6 @@
       color: white;
   }
   .caption {
-    position: fixed;
     background-color: pink;
     width: 100%;
     top: 0px;
