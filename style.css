@@ -2,6 +2,7 @@
 <style>
   table, td, th {
       border: 2px #FF66FF;
+      position: float;
   }
   th {
       background-color: blue;
@@ -32,5 +33,9 @@
       background-color: blue;
       color: white;
   }
+  h1 {
+    position: fixed;
+  }
+  
 </style>
 </head>
