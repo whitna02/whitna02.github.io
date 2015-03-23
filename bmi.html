@@ -1,21 +1,26 @@
 <html>
-<head>
-  <title> BMI Calculator </title>
-  <script>
-    function computeBMI() {
-      var height=Number(document.getElementById("height").value);
-      var weight=Number(document.getElementById("weight").value);
-      
-      var BMI=(weight*703)/(height*height)
-      
-    }
-  </script>
-</head>
-<body>
-  <h1> Calculate BMI </h1>
-  <p> Insert your weight in pounds: <input type="text" id="weight"/></p>
-  <p>Insert your height in inches: <input type="text" id="height"/></p>
-  <input type="submit" value="computeBMI" onclick="computeBMI();">
-  <br> <h3>Your BMI is: <span id="BMI"></span></h3>
-</body>
+    <head>
+        <title>BMI Calculator</title>
+    </head>
+    <body>
+        <label for="thebox">Height in Inches</label>
+        <input type="text" id="thebox">
+        <label for="textbox">Weight in lbs</label>
+        <input type="text" id="textbox">
+        <button onclick="convert();">Calculate BMI</button>
+        <h1 id="output"></h1>
+        
+        <script>
+            convert = function() {
+                thebox = document.querySelector("#thebox");
+                textbox = document.querySelector("#textbox")
+                height = thebox.value;
+                weight = textbox.value;
+               
+                output = document.querySelector("#output");
+                output.innerHTML = (weight * 703) / (height * height);
+            }
+        </script>
+        
+    </body>
 </html>
